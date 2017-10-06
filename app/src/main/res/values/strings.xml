@@ -1,0 +1,32 @@
+<resources>
+    <!--App name-->
+    <string name="app_name">STEM Fund Manager</string>
+
+
+
+    <!--Detail view-->
+    <string name="fund_id">ID:</string>
+    <string name="fund_investment_name">Investment Name:</string>
+    <string name="fund_agency">Fund Agency:</string>
+    <string name="fund_sub_agency">Sub Agency:</string>
+    <string name="fund_brief_description">Brief Description:</string>
+    <string name="fund_year_established">Year Established:</string>
+    <string name="fund_fy_2008">Funding Fiscal Year 2008:</string>
+    <string name="fund_fy_2009">Funding Fiscal Year 2009:</string>
+    <string name="fund_fy_2010">Funding Fiscal Year 2010:</string>
+    <string name="fund_mission_specific_or_general_stem">Mission Specific or General STEM:</string>
+    <string name="fund_agency_or_mission_related_needs">Agency or Mission Related Needs:</string>
+    <string name="fund_primary_investment_objective">Primary Investment Objective:</string>
+
+    <!--Add/Update Fund-->
+    <string name="add_fund">Add Fund</string>
+    <string name="update_fund">Update Fund</string>
+
+    <!--Miscellaneous-->
+    <string name="filter">Filter:</string>
+    <string name="fund_updated">Funds Updated</string>
+    <string name="fund_updated_text">Fund #2 has been updated.</string>
+    <string name="fund_added">The fund has been added</string>
+    <string name="fund_was_updated">The fund was updated</string>
+    <string name="loading_dialog">Loading...</string>
+</resources>

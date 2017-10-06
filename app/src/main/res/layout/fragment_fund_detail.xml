@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text="@string/fund_id"/>
+
+    <TextView
+        android:id="@+id/tv_fund_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_content_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text=""/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text="@string/fund_investment_name"/>
+
+    <TextView
+        android:id="@+id/tv_fund_investment_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_content_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text=""/>
+
+    <EditText
+        android:textColor="@color/black"
+        android:id="@+id/et_fund_investment_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_content_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text=""
+        android:visibility="gone"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text="@string/fund_agency"/>
+
+    <TextView
+        android:id="@+id/tv_fund_agency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_content_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text=""/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text="@string/fund_sub_agency"/>
+
+    <TextView
+        android:id="@+id/tv_fund_sub_agency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_content_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text=""/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text="@string/fund_brief_description"/>
+
+    <TextView
+        android:id="@+id/tv_fund_brief_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_content_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text=""/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text="@string/fund_year_established"/>
+
+    <TextView
+        android:id="@+id/tv_fund_year_established"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_content_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text=""/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text="@string/fund_fy_2008"/>
+
+    <TextView
+        android:id="@+id/tv_fund_fy_2008"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_content_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text=""/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text="@string/fund_fy_2009"/>
+
+    <TextView
+        android:id="@+id/tv_fund_fy_2009"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_content_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text=""/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text="@string/fund_fy_2010"/>
+
+    <TextView
+        android:id="@+id/tv_fund_fy_2010"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_content_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text=""/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text="@string/fund_mission_specific_or_general_stem"/>
+
+    <TextView
+        android:id="@+id/tv_fund_mission_specific_or_general_stem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_content_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text=""/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text="@string/fund_agency_or_mission_related_needs"/>
+
+    <TextView
+        android:id="@+id/tv_fund_agency_or_mission_related_needs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_content_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text=""/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text="@string/fund_primary_investment_objective"/>
+
+    <TextView
+        android:id="@+id/tv_fund_primary_investment_objective"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_content_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text=""/>
+
+    <Button
+        android:textColor="@color/black"
+        android:id="@+id/bt_update_fund"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_margin"
+        android:paddingLeft="@dimen/detail_padding_left"
+        android:paddingRight="@dimen/detail_padding_right"
+        android:text="@string/update_fund"
+        android:visibility="gone"/>
+</LinearLayout>
+</ScrollView>

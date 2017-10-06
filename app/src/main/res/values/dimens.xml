@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_padding">12dp</dimen>
+    <dimen name="list_margin">5dp</dimen>
+    <dimen name="detail_margin">5dp</dimen>
+    <dimen name="detail_padding_left">12dp</dimen>
+    <dimen name="detail_content_padding_left">24dp</dimen>
+    <dimen name="detail_padding_right">12dp</dimen>
+    <dimen name="search_bar_padding">12dp</dimen>
+</resources>
